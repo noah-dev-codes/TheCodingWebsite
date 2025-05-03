@@ -1,0 +1,39 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="logo.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Noah">
+  <meta name="description" content="The Coding Website is a place where you can share and learn about coding, it is also a place to talk about coding.">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Sh, Toml, Coding, Dev">
+  <title>The Coding Website</title>
+  <link href="/src/styles.css" rel="stylesheet">
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>FormSubmit Demo</h1>
+        <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+              </div>
+              <div class="col">
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+          <div class="cf-turnstile" data-sitekey="0x4AAAAAABZqqDHT8mc1bw6R"></div>
+        </form>
+      </div>
+
+
+
+</body>
